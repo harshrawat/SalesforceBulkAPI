@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Information>
+    <action>Export/Import</action>
+    <exportInformation>
+        <contentType>CSV</contentType>
+        <fileLocation>{LocationToSaveFile}</fileLocation>
+        <fileName>{FileName}</fileName>
+        <objectName>{SObject API Name}</objectName>
+        <soql>{SOQL}</soql>
+    </exportInformation>
+    <importInformation>
+        <contentType>CSV/XML</contentType>
+        <externalIdFieldName>{external Id API Name}</externalIdFieldName>
+        <fileLocation>{Location To fetch File}</fileLocation>
+        <fileName>{file name}</fileName>
+        <objectName>{SObject API Name}</objectName>
+        <operation>{DML Operation}</operation>
+    </importInformation>
+    <userinformation>
+        <orgtype>Developer/Production/Sandbox</orgtype>
+        <password>{Org Password}</password>
+        <securityToken>{Security Token if required}</securityToken>
+        <username>{User Name of the org}</username>
+    </userinformation>
+</Information>
