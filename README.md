@@ -51,4 +51,5 @@ After the configuration file we just needed to execute bulk API jar
 # Run following command in CMD
 
 java -jar SalesforceBulkAPI.jar Import.xml
+
 java -jar SalesforceBulkAPI.jar Export.xml
