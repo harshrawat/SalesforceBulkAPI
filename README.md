@@ -5,7 +5,7 @@ To perform these actions we have to create one configuration XML file
 
 # Ex :
 # for Import : Import.XML
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+""<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Information>
     <action>Import</action>
     <importInformation>
@@ -22,7 +22,7 @@ To perform these actions we have to create one configuration XML file
         <securityToken>{Security Token if required}</securityToken>
         <username>{User Name of the org}</username>
     </userinformation>
-</Information>
+</Information>""
 
 # for Export : Export.xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
